@@ -3,20 +3,21 @@
 /**
  * main - prints lowercase alphabet followed by uppercase alphabet
  *
- * Returns: always 0 (Success)
+ * Return: always 0 (Success)
  */
 
 int main(void)
 {
-	int alpha = 97, finished =0;
+	int alpha = 97;
 
-	while(!finished)
+	while (1)
 	{
 		putchar(alpha++);
-		if (alpha == 123) 
+		if (alpha == 123)
 			alpha = 65;
 		if (alpha == 91)
 			break;
 	}
 	putchar('\n');
+	return (0);
 }
