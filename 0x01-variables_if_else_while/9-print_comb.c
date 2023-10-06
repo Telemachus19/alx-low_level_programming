@@ -9,7 +9,8 @@
 int main(void)
 {
 	int i = 48, max = (i + 10);
-	for(; i < max; i++)
+
+	for (; i < max; i++)
 	{
 		putchar(i);
 		if (i != (max - 1))
