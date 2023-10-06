@@ -8,7 +8,8 @@
 int main(void)
 {
 	char alpha = 97;
-	for (int i = alpha; i < (alpha+26); i++)
+
+	for (int i = alpha; i < (alpha + 26); i++)
 		putchar(i);
 	putchar('\n');
 	return (0);
