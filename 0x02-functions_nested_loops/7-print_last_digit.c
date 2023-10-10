@@ -8,8 +8,9 @@
  */
 int print_last_digit(int n)
 {
-	int r = (n < 0) ? (-n % 10) : (n % 10);
+	int r = n % 10;
 
+	r = (r < 0) ? (-r) : r;
 	_putchar('0' + r);
 	return (r);
 }
