@@ -17,13 +17,17 @@ int main(void)
 		multThree = i % 3;
 		multFive = i % 5;
 		if (!(multThree) && !(multFive))
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		else if (!(multThree))
-			printf("Fizz ");
+			printf("Fizz");
 		else if (!(multFive))
-			printf("Buzz ");
+			printf("Buzz");
 		else
-			printf("%d ", i);
+			printf("%d", i);
+		if(i != 101)
+			printf(" ");
+		else
+			printf("\n");
 	}
 	return (0);
 }
